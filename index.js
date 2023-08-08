@@ -1,3 +1,4 @@
+const keep_alive = require('./keep_alive.js')
 console.log('Starting...')
 let cluster = require('cluster')
 let path = require('path')
